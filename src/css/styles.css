@@ -2,6 +2,8 @@
    /* css for the home page */
 body{
     font-family: sans-serif;
+    
+    
 }
 .page{
     font-family: fantasy;
@@ -20,10 +22,12 @@ body{
     
 }
 
+
 .HeaderAndNav{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    background-color: rgb(100, 89, 89);
     
 }
 .placesIhaveVisited{
@@ -105,36 +109,53 @@ body{
 .sponsors{
     display: flex;
     flex-direction: column;
+    background-color: #535c4a;
 }
 
 .ImageAndDescription{
     display: flex;
     justify-content: space-between;
+    background-color: #535c4a;
 }
 .ContactDetails{
+    background-color: grey;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-content: flex-start;
 }
 .contactForm{
+    background-color: rgb(73, 72, 72);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 form{
+    background-color: rgb(73, 72, 72);
     display: flex;
     flex-direction: column;
 }
+.placesIhaveVisited{
+    display: flex;
+    background-color: grey;
+}
+#honourId{
+    background-color: grey;
+}
+.eduedu{
+    background-color: #535c4a;
+}
 .icons{
-    
+    background-color: rgb(44, 42, 42);
     font-size: 40px;
 }
 .lastFooter{
+    background-color: rgb(38, 40, 48);
     display: flex;
     flex-direction: column;
 }
 .footer-top{
+   
     margin-top: 30px;
     display: flex;
     align-content: baseline;
@@ -146,7 +167,7 @@ a{
     font-family: sans-serif;
 }
 .footer-Bottom{
-    
+    background-color: rgb(32, 33, 36);
     text-align: center;
 }
 .front{
@@ -176,7 +197,12 @@ a{
     width: 100px;
     height: 100px;    
 }
+.futureh1{
+    background-color: black;
+    color: white;
+}
 .gallery{
+    background-color: rgba(83, 92, 74, 0.404);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -186,6 +212,7 @@ a{
     height: 182%;
 }
 .HobbiesWrapeer{
+    background-color: rgba(165, 42, 42, 0.212);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -223,9 +250,13 @@ a{
     float: left;
 }
 .dreamJob{
+    background-color: #2d312763;
     display: flex;
     justify-content: column;
 
+}
+.dulal{
+    background-color: rgba(101, 190, 12, 0.253);
 }
 .dreamJob{
     display: flex;
@@ -234,7 +265,7 @@ a{
 }
 
 .backgroundimageducation{
-  
+    background-color: rgb(148, 145, 145);
     display: flex;
     height: 250px;
     flex-wrap: wrap;
@@ -243,6 +274,11 @@ a{
    
    
    
+}
+
+.fgt{
+    background-color: #535c4a;
+    margin: 0px;
 }
 .col-A{
     margin: 2px;
@@ -266,22 +302,20 @@ a{
     justify-content: space-between;
     align-self: stretch;  
 }
-.col-C{
-    margin: 2px;
-    background-color: grey;
-    align-self: stretch;
-}
+
 .flexboxItem{
     height: 9pxpx ;
     
     padding: 2px;
 }
 .honours{
+    background-color: brown;
     display: flex;
     justify-content: space-between ;
 
 }
 .volunteerContent{
+    background-color: #535c4a;
     display: flex;
     flex-direction: column;
     text-align: center;

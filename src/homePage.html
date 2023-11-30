@@ -4,90 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/src/css/styles.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>Home</h1>
-            <a href="Hobbies.html">Hobbies</a>
-            <a href="FutureCareerPlan.html">Future plans</a>
-            <a href="educationalBackground.html">Educational background</a>
-            <a href="travel.html">Tarvel</a>
-            <a href="extraHighlights/volunteerActivities.html">Extra</a>
+    <nav class="HeaderAndNav">
+        <h1 class="page">Home</h1>
+        <div class="dropdown">
+            <button class="dropbtn">
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="Hobbies.html">Hobbies</a>
+                <a href="FutureCareerPlan.html">Future plans</a>
+                <a href="educationalBackground.html">Educational background</a>
+                <a href="travel.html">Tarvel</a>
+                <a href="extraHighlights/volunteerActivities.html">Extra</a>
+            </div>
+          </div>
+        
         </nav>
-    </header>
+    
     <br><br>
-    <div>
-        <img src="images/pic_preview_rev_1.png" alt="zeamanuel picture" width="100" height="100">
-        <p>This is Zeamanuel, my friends call me "ZAHA" and I am an upcoming Software Engineer. Explore more by navigating around.  </p>
+    <div class="ImageAndDescription">
+        <img class="zahasImage" src="images/pic_preview_rev_1.png" alt="zeamanuel picture" width="100" height="100">
+        <p class="zeamanuelsDescription">This is Zeamanuel, my friends call me "ZAHA" and I am an upcoming Software Engineer. Explore more by navigating around.  </p>
     </div>
-    <section class="section1">
-        <h2>sponsors</h2>
-        <ol>
+    <br>
+    <br>
+    <hr>
+    <section class="sponsors">
+        <h2>Sponsors</h2>
+        <ol class="Orderedlist">
             <li><strong>Ethio tour guide:</strong> <p> ETG is a private company which offers ultimate tour experience for our customers. Thank you for choosing us</p></li>
             <li><strong>Zemen Bank:</strong> <p> Zemen bank is a banking system based in Ethiopia. We were estabilished by urging to change the poorly operated banking system during that time. We offer unlimited experience by integrating advanced technologies. Thank you far banking with us.</p></li>
             <li><strong>kerchanshe trading plc:</strong> <p>Kerchanshe is the market leader for specialty coffee in Ethiopia. Traceability, Transparency and Quality are their mantras and can be tested in every cup.</p> </li>
         </ol>
-        <h4>contact details of the sponsors</h4>
-        <div class="table1">
-            <table>
-                <tr>
-                    <td>
-                        <a href="https://www.tripadvisor.com/Attractions-g293790-Activities-c42-t235-Ethiopia.html">EthioTourGuide@gmail.com</a></td>
-                    <td> 
-                        <a href="https://www.zemenbank.com/">ZemenBank@gmail.com</a>
-                    </td>
-                    <td>
-                        <a href="https://www.kerchanshe.com/">kerchansheCoffee@yahoo.com</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <address>
-                        <p>
-                            Address: 2R82+3VV, <br>bole sub city <br> kebele 08/09 house no 074, <br>Addis Ababa <br>
-                            Hours Open: Monday to <br>Saturday during <br> horking hours <br>
-                            Phone: 097 771 7171
-                        </p>
-    
-                        </address>
-                    </td>
-                    <td>
-                        <address>
-                            <p>
-                                Address: Arada + abinet road <br>
-                                Abinet Banking Center. <br> Located Abinet Area <br>- 
-                                From Sebatega to <br>Abinet Road Before <br> 
-                                Hours Open: Monday to <br>Saturday during <br>
-                                Gibe Building <br>Tel:+251 112 735 480
-                            </p>
-                        </address>
-                    </td>
-                    <td>
-                        <address>
-                            <p>
-                                Address: 6th Floor, <br>
-                                Africa Insurance Building,<br>
-                                Africa St, Addis Ababa 989 <br>
-                                Hours Open: Monday to <br>Saturday during
-                                 <br> horking hours <br>
-                                 Phone: 011 371 6370
-                            </p>
-                        </address>
-                    </td>
-                </tr>
-               
-            </table>
-        </div>
-        
     </section>
+    <section class="ContactDetails">
+        <h3>Contact details of the sponsors</h3>
+        <div>
+            <a href="https://www.tripadvisor.com/Attractions-g293790-Activities-c42-t235-Ethiopia.html">EthioTourGuide@gmail.com</a>
+            <address>
+                <p>
+                    Address: 2R82+3VV, <br>bole sub city <br> kebele 08/09 house no 074, <br>Addis Ababa <br>
+                    Hours Open: Monday to <br>Saturday during <br> horking hours <br>
+                    Phone: 097 771 7171
+                </p>
 
+                </address>
+        </div>
+        <div>
+            <a href="https://www.zemenbank.com/">ZemenBank@gmail.com</a>
+            <address>
+                <p>
+                    Address: Arada + abinet road <br>
+                    Abinet Banking Center. <br> Located Abinet Area <br>- 
+                    From Sebatega to <br>Abinet Road Before <br> 
+                    Hours Open: Monday to <br>Saturday during <br>
+                    Gibe Building <br>Tel:+251 112 735 480
+                </p>
+            </address>
+        </div>
+        <div>
+            <a href="https://www.kerchanshe.com/">kerchansheCoffee@yahoo.com</a>
+            <address>
+                <p>
+                    Address: 6th Floor, <br>
+                    Africa Insurance Building,<br>
+                    Africa St, Addis Ababa 989 <br>
+                    Hours Open: Monday to <br>Saturday during
+                     <br> horking hours <br>
+                     Phone: 011 371 6370
+                </p>
+            </address>
+        </div>
+    </section>
+        
+        
+    
+<hr>
     <footer>
-        <table>
-            <tr>
-                <td>
-                    <div class="column">
+        <div class="contactForm">
+        
+                        <h2>Contact Me</h2>
                         <form>
                           <label for="fname">First Name</label>
                           <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -103,26 +106,21 @@
                           <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
                           <input type="submit" value="Submit">
                         </form>
-                      </div>
-                /td></tr>
-                <tr><td>
+        </div>
+                    
+                <div class="lastFooter">
                     <div class="footer-top">
-                        <div class="socialIcons">
-                            <a href=""><i class="fa-brands fa-instagram fa-2xs" ></i></a>
-                            <a href=""><i class="fa-brands fa-facebook fa-2xs" ></i></a>
-                            <a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                            <a href=""><i class="fa-brands fa-twitter" ></i></a>
-                        </div>
-                        <div class="footer-Bottom">
-                            <p>Copyright; 2023; Designed by<span class="designer"> Zeamanuel</span></p>
-                        </div>              
-                                           
+                    
+                        <a href=""><i class="icons fa-brands fa-instagram fa-2xs" ></i></a>
+                        <a href=""><i class="icons fa-brands fa-facebook fa-2xs" ></i></a>
+                        <a href=""><i class="icons fa fa-envelope fa-2xs" aria-hidden="true"></i></a>
+                        <a href=""><i class="icons fa-brands fa-twitter fa-2xs" ></i></a>
                     </div>
-                </td></tr>
-                
-            
-        </table>
-        
+                    <div class="footer-Bottom">
+                        <p>Copyright; 2023; Designed by <br><span class="designer"> Zeamanuel</span></p>
+                    </div> 
+                </div>
+                                 
         
     </footer>
     

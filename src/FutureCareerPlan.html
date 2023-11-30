@@ -4,111 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/src/css/styles.css"> 
 </head>
 <body>
-    <header>
-        <nav><table>
-            <tr>
-                <td>
-                    <h2>Future Carrer plan</h2>
-                </td>
-                <td >
-                    <a href="homePage.html">Home</a>
-                    <a href="Hobbies.html">Hobbies</a>
-                    <a href="educationalBackground.html">Educational background</a>
-                    <a href="travel.html">Tarvel</a>
-                    <a href="extraHighlights/volunteerActivities.html">Extra</a>
-                </td>
-            </tr>
-        </table>
-            
-            
+    <nav class="HeaderAndNav">
+        <h1 class="page">Future Career Plan</h1>
+        <div class="dropdown">
+            <button class="dropbtn">
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="Hobbies.html">Hobbies</a>
+                <a href="homePage.html">Home</a>
+                <a href="educationalBackground.html">Educational background</a>
+                <a href="travel.html">Tarvel</a>
+                <a href="extraHighlights/volunteerActivities.html">Extra</a>
+            </div>
+          </div>
+        
         </nav>
-    </header>
+    
     <br><br>
-    <main>
-        <div>
-            <img src="images/programmer.jpg" alt="">
-            <p>I probably will be doing some coding.</p>
+    <main class="dreamJob">
+        <div class="wrapperjobs">
+            <div>
+                <img src="images/programmer.jpg" alt="" height="100" width="100">
+                <p>I probably will be doing some coding.</p>
+            </div>
+            <div>
+                <img src="images/pilot.jpg" alt="" height="100" width="100">
+                <p>I always thought I would have been a pilot, but there is height problem. I am doing height exercise, wish me luck!!</p>
+            </div>
         </div>
-        <div>
-            <img src="images/pilot.jpg" alt="" height="300" width="300">
-            <p>I always thought I would have been a pilot, but there is height problem. I am doing height exercise, wish me luck!!</p>
+        
+        <div class="wrapperJobs1">
+            <div>
+                <img src="images/cuptaster.jpg" alt="" height="100" width="100">
+                <p>I was nearly going to start a coffee cup taster Job. I have liscence to do it from Ethiopian ministry of tea and coffee. </p>
+            </div>
+            <div>
+                <img src="images/soccer.jpg" alt="" height="100" width="100">
+                <p>During Highschool I played so much football. As a carrer, I think the time has passed. Though I might go for owning a club and training youngsters to be professional stars</p>
+            </div>
         </div>
-        <div>
-            <img src="images/cuptaster.jpg" alt="">
-            <p>I was nearly going to start a coffee cup taster Job. I have liscence to do it from Ethiopian ministry of tea and coffee. </p>
-        </div>
-        <div>
-            <img src="images/soccer.jpg" alt="" height="300" width="300">
-            <p>During Highschool I played so much football. As a carrer, I think the time has passed. Though I might go for owning a club and training youngsters to be professional stars</p>
-        </div>
+        
     </main>
-    <section class="section1">
-        <h2>sponsors</h2>
-        <ol>
+    <hr>
+    <section class="sponsors">
+        <h2>Sponsors</h2>
+        <ol class="Orderedlist">
             <li><strong>Ethio tour guide:</strong> <p> ETG is a private company which offers ultimate tour experience for our customers. Thank you for choosing us</p></li>
             <li><strong>Zemen Bank:</strong> <p> Zemen bank is a banking system based in Ethiopia. We were estabilished by urging to change the poorly operated banking system during that time. We offer unlimited experience by integrating advanced technologies. Thank you far banking with us.</p></li>
             <li><strong>kerchanshe trading plc:</strong> <p>Kerchanshe is the market leader for specialty coffee in Ethiopia. Traceability, Transparency and Quality are their mantras and can be tested in every cup.</p> </li>
         </ol>
-        <h4>contact details of the sponsors</h4>
-        <div class="table1">
-            <table>
-                <tr>
-                    <td>
-                        <a href="https://www.tripadvisor.com/Attractions-g293790-Activities-c42-t235-Ethiopia.html">EthioTourGuide@gmail.com</a></td>
-                    <td> 
-                        <a href="https://www.zemenbank.com/">ZemenBank@gmail.com</a>
-                    </td>
-                    <td>
-                        <a href="https://www.kerchanshe.com/">kerchansheCoffee@yahoo.com</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <address>
-                        <p>
-                            Address: 2R82+3VV, <br>bole sub city <br> kebele 08/09 house no 074, <br>Addis Ababa <br>
-                            Hours Open: Monday to <br>Saturday during <br> horking hours <br>
-                            Phone: 097 771 7171
-                        </p>
-    
-                        </address>
-                    </td>
-                    <td>
-                        <address>
-                            <p>
-                                Address: Arada + abinet road <br>
-                                Abinet Banking Center. <br> Located Abinet Area <br>- 
-                                From Sebatega to <br>Abinet Road Before <br> 
-                                Hours Open: Monday to <br>Saturday during <br>
-                                Gibe Building <br>Tel:+251 112 735 480
-                            </p>
-                        </address>
-                    </td>
-                    <td>
-                        <address>
-                            <p>
-                                Address: 6th Floor, <br>
-                                Africa Insurance Building,<br>
-                                Africa St, Addis Ababa 989 <br>
-                                Hours Open: Monday to <br>Saturday during
-                                 <br> horking hours <br>
-                                 Phone: 011 371 6370
-                            </p>
-                        </address>
-                    </td>
-                </tr>
-               
-            </table>
-        </div>
-        
     </section>
-    <footer >
-        <table>
-            <tr>
-                <td>
-                    <div class="column">
+    <section class="ContactDetails">
+        <h3>Contact details of the sponsors</h3>
+        <div>
+            <a href="https://www.tripadvisor.com/Attractions-g293790-Activities-c42-t235-Ethiopia.html">EthioTourGuide@gmail.com</a>
+            <address>
+                <p>
+                    Address: 2R82+3VV, <br>bole sub city <br> kebele 08/09 house no 074, <br>Addis Ababa <br>
+                    Hours Open: Monday to <br>Saturday during <br> horking hours <br>
+                    Phone: 097 771 7171
+                </p>
+
+                </address>
+        </div>
+        <div>
+            <a href="https://www.zemenbank.com/">ZemenBank@gmail.com</a>
+            <address>
+                <p>
+                    Address: Arada + abinet road <br>
+                    Abinet Banking Center. <br> Located Abinet Area <br>- 
+                    From Sebatega to <br>Abinet Road Before <br> 
+                    Hours Open: Monday to <br>Saturday during <br>
+                    Gibe Building <br>Tel:+251 112 735 480
+                </p>
+            </address>
+        </div>
+        <div>
+            <a href="https://www.kerchanshe.com/">kerchansheCoffee@yahoo.com</a>
+            <address>
+                <p>
+                    Address: 6th Floor, <br>
+                    Africa Insurance Building,<br>
+                    Africa St, Addis Ababa 989 <br>
+                    Hours Open: Monday to <br>Saturday during
+                     <br> horking hours <br>
+                     Phone: 011 371 6370
+                </p>
+            </address>
+        </div>
+    </section>
+        
+        
+    
+<hr>
+    <footer>
+        <div class="contactForm">
+        
+                        <h2>Contact Me</h2>
                         <form>
                           <label for="fname">First Name</label>
                           <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -124,27 +121,23 @@
                           <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
                           <input type="submit" value="Submit">
                         </form>
-                      </div>
-                </td></tr>
-                <tr><td>
+        </div>
+                    
+                <div class="lastFooter">
                     <div class="footer-top">
-                        <div class="socialIcons">
-                            <a href=""><i class="fa-brands fa-instagram fa-2xs" ></i></a>
-                            <a href=""><i class="fa-brands fa-facebook fa-2xs" ></i></a>
-                            <a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                            <a href=""><i class="fa-brands fa-twitter" ></i></a>
-                        </div>
-                        <div class="footer-Bottom">
-                            <p>Copyright; 2023; Designed by<span class="designer"> Zeamanuel</span></p>
-                        </div>              
-                                           
+                    
+                        <a href=""><i class="icons fa-brands fa-instagram fa-2xs" ></i></a>
+                        <a href=""><i class="icons fa-brands fa-facebook fa-2xs" ></i></a>
+                        <a href=""><i class="icons fa fa-envelope fa-2xs" aria-hidden="true"></i></a>
+                        <a href=""><i class="icons fa-brands fa-twitter fa-2xs" ></i></a>
                     </div>
-                </td></tr>
-                
-            
-        </table>
-        
+                    <div class="footer-Bottom">
+                        <p>Copyright; 2023; Designed by <br><span class="designer"> Zeamanuel</span></p>
+                    </div> 
+                </div>
+                                 
         
     </footer>
+
 </body>
 </html>

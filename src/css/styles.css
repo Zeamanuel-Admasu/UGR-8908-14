@@ -1,56 +1,23 @@
-   
-   /* css for the home page */
 body{
+    display: grid;
+    justify-content: space-between;
     font-family: sans-serif;
+    background-color: grey ;
+ 
+    row-gap: 10px;
 }
-.page{
-    font-family: fantasy;
-}
-.zeamanuelsDescription{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 20px;
-    width: 50%;
-
-}
-.zahasImage{
-    margin-right: 10px;
-    width: 40%;
-    height: 100%;
-    border-radius: 90px;
-    
-}
-
 .HeaderAndNav{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    background-color: rgb(100, 89, 89);
 }
-.placesIhaveVisited{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between ;
-}
-.HeaderAndNav .dropdown .dropdown-content a{
-    text-decoration: none;
-}
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* The dropdown container */
-  .dropdown {
+.dropdown {
     float: left;
     overflow: hidden;
   }
   
-  /* Dropdown button */
   .dropdown .dropbtn {
     font-size: 16px;
     border: none;
@@ -58,241 +25,205 @@ body{
     color: black;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
+    font-family: inherit; 
+    margin: 0; 
   }
   
-  /* Add a red background color to navbar links on hover */
+  
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(70, 10, 190);
   }
   
-  /* Dropdown content (hidden by default) */
+ 
   .dropdown-content {
     display: none;
-    position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
-  /* Links inside the dropdown */
+  
   .dropdown-content a {
-    float: none;
+    display: flex;
+    flex-direction: column;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
-    text-align: left;
+    justify-items: center;
   }
   
-  /* Add a grey background color to dropdown links on hover */
+ 
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #4f4679;
   }
   
-  /* Show the dropdown menu on hover */
+  
   .dropdown:hover .dropdown-content {
     display: block;
   }
-.Orderedlist{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.sponsors{
-    display: flex;
-    flex-direction: column;
-}
-
 .ImageAndDescription{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2,1fr);
+}
+.sponsors{
+    display: grid;
+    background-color: #535c4a;
+    
+}
+.Orderedlist{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 .ContactDetails{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: flex-start;
+    background-color: grey;
+    display: grid;
+    justify-content: center;
 }
 .contactForm{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    background-color: rgb(73, 72, 72);
 }
-form{
-    display: flex;
-    flex-direction: column;
-}
-.icons{
-    
-    font-size: 40px;
+
+.contactFormABC{
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
 }
 .lastFooter{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    background-color: rgb(38, 40, 48);
+    height: 140px;
+    align-content: space-around;
+    
 }
 .footer-top{
-    margin-top: 30px;
-    display: flex;
-    align-content: baseline;
-    justify-content: space-evenly;
-}
-a{
-    text-decoration: none;
-    font-size: larger;
-    font-family: sans-serif;
-}
-.footer-Bottom{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 4fr;
     
-    text-align: center;
-}
-.front{
-    display: flex;
-    flex-direction: column;
-}
-.top{
-    display: flex;
-    flex-direction: column;
-}
-.bottom{
-    display: flex;
-    flex-direction: column;
-}
-.back{
-    display: flex;
-    flex-direction: column;
-}
-.left{
-    display: flex;
-    flex-direction: column;
-}.right{
-    display: flex;
-    flex-direction: column;
-}
-.travelimage{
-    width: 100px;
-    height: 100px;    
-}
-.gallery{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-}
-.TI1 , .TI3{
-    height: 182%;
-}
-.HobbiesWrapeer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    
-}
-.hob2 img{
-    border-radius: 20%;
-    margin-bottom: 3px;
-    margin-left: 3px;
-    float: right;
-}
-.hob1 img{
-    border-radius: 20%;
-    margin-bottom: 3px;
-    margin-right: 3px;
-    float: left;
-}
-.hob3 img{
-    border-radius: 20%;
-    margin-bottom: 3px;
-    margin-right: 3px;
-    float: left;
-}
-.hob4 img{
-    border-radius: 20%;
-    margin-bottom: 3px;
-    margin-left: 3px;
-    float: right;
-}
-.hob5 img{
-    border-radius: 20%;
-    margin-bottom: 3px;
-    margin-right: 3px;
-    float: left;
-}
-.dreamJob{
-    display: flex;
-    justify-content: column;
 
-}
-.dreamJob{
-    display: flex;
-    justify-content: center;
-    
-}
-
-.backgroundimageducation{
-  
-    display: flex;
-    height: 250px;
-    flex-wrap: wrap;
-    align-content: space-between;
-    
-   
-   
-   
-}
-.col-A{
-    margin: 2px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 95%;
-    background-color: grey;
-    align-content: space-between;
-    justify-content: space-between;
-}
-#myedu{
-    font-weight: 1000;
-}
-
-.col-B{
-    margin: 2px;
-    display: flex;
-    flex-direction: column;    
-    background-color: #535c4a;
-    justify-content: space-between;
-    align-self: stretch;  
-}
-.col-C{
-    margin: 2px;
-    background-color: grey;
-    align-self: stretch;
-}
-.flexboxItem{
-    height: 9pxpx ;
-    
-    padding: 2px;
 }
 .honours{
-    display: flex;
-    justify-content: space-between ;
+    display: grid;
 
 }
-.volunteerContent{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+footer{
+    display: grid;
+}
+.footer-Bottom{
+    display: grid;
     justify-content: center;
+    background-color: rgb(32, 33, 36);
+}
+/* .icons{
+    background-color: rgb(44, 42, 42);
+    font-size: 40px;
+} */
+.foot{
+    display: grid;
+    row-gap: 1em;
+    background-color: rgb(73, 72, 72);
+
+}
+.descriptionMe{
+    font-family: 'Kaushan Script', cursive; 
+}
+.placesIhaveVisited{
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.gallerdiv{
+    width: 100px;
+    height: 100px;
+}
+.gallery{
+    display: grid;
+    justify-items: center;
+
+}
+.HobbiesWrapeer{
+    display: grid;
+    justify-items: center;
+}
+p{
+    font-family: 'Kaushan Script', cursive;
+}
+.icons{
+    background-color: rgb(44, 42, 42);
+}
+.dreamJob{
+    display: grid;
+    
+}
+.zahasImage{
+    border-radius: 30px;
+}
+.zeamanuelsDescription{
+    font-family: 'Kaushan Script', cursive;
+    
+    width: 100%;
+}
+.educeduca{
+    display: grid;
+  
+}
+.backgroundimageducation{
+    display: grid;
+    border: 3px solid whitesmoke;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.careerImgs{
+    border-radius: 30px;
+ 
+
+}
+.wrapperjobs{
+    display: grid;
+    text-align: center;
+}
+.hob1{
+    display: grid;
+    justify-items: center;
+}
+.hob2{
+    display: grid;
+    justify-items: center;
+}
+.hob3{
+    display: grid;
+    justify-items: center;
+}
+.hob4{
+    display: grid;
+    justify-items: center;
+}
+.hob5
+{
+    display: grid;
+    justify-items: center;
+}
+hr{
+    width: 100%;
+    color: lightblue;
+}
+.wrapperJobs1{
+    display: grid;
+    text-align: center;
+   
 }
 .volunteerImg{
     width: 50%;
     height: 50%;
 }
-
-
-
+.volunteerContent{
+    display: grid;
+    flex-direction:column;
+    text-align: center;
+}
 
 

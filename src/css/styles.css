@@ -79,7 +79,7 @@ body{
 
 @media only screen and (max-height: 200px) and (orientation:landscape){
     .ContactDetails{
-        background-image: linear-gradient(rgb(4rgb(32, 11, 11)9, 39),grey);
+        background-image:linear-gradient(#241614, rgb(97, 84, 84));
         display: flex;
         gap: 10px;
         flex-direction: column;

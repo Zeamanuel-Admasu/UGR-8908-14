@@ -2,7 +2,8 @@ body{
     display: grid;
     justify-content: space-between;
     font-family: sans-serif;
-    background-color: grey ;
+    background-color: linear-gradient ;
+    background-image: linear-gradient(grey, rgb(53, 37, 37));
  
     row-gap: 10px;
 }
@@ -11,7 +12,7 @@ body{
     grid-template-rows: 1fr;
     grid-template-columns: repeat(2,1fr);
     justify-items: center;
-    background-color: rgb(100, 89, 89);
+    background-image: linear-gradient(rgb(119, 103, 103), rgb(42, 42, 59));
 }
 .dropdown {
     float: left;
@@ -37,7 +38,7 @@ body{
  
   .dropdown-content {
     display: none;
-    background-color: #f9f9f9;
+    background-image: linear-gradient(#796767, rgb(27, 19, 19));
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -68,21 +69,374 @@ body{
     grid-template-columns: repeat(2,1fr);
 }
 .sponsors{
+    color: white;
     display: grid;
-    background-color: #535c4a;
+    justify-content: flex-end;
+    background-image:linear-gradient(#535c4a, rgb(95, 95, 95)) ;
     
 }
-.Orderedlist{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+
+
+@media only screen and (max-height: 200px) and (orientation:landscape){
+    .ContactDetails{
+        background-image: linear-gradient(rgb(4rgb(32, 11, 11)9, 39),grey);
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        color: white;
+    }
+    .box{
+        box-sizing: content-box;
+        border: 2px solid rgb(136, 124, 124);
+    }
+    .twoBoxes{
+        display: flex;
+        justify-content: space-between;
+    }
+    #travel-section{
+        display: flex;
+        justify-content: center;
+      }
+      .placesIhaveVisited{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+  
+      }
+      .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3em;
+        justify-items: center;
+    
+    }
+    .gallerdiv{
+        width: 200px;
+        height: 200px;
+    }
+    .wrapperjobs{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .wrapperjobs div{
+        gap: 12px;
+        
+    }
+    .wrapperjobs1 div{
+        gap: 12px;
+       
+    }
+    
+    .wrapperJobs1{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .dreamJob{
+        display: flex;
+        flex-direction: row;
+        gap: 5em;
+    }   
+      
 }
-.ContactDetails{
-    background-color: grey;
-    display: grid;
-    justify-content: center;
+@media only screen and (max-width :320px){
+    .ContactDetails{
+        background-image: linear-gradient(rgb(4rgb(32, 11, 11)9, 39),grey);
+        display: grid;
+        gap: 5px;
+        justify-content: center;
+        color: white;
+    }
+    .box{
+        box-sizing: content-box;
+        border: 2px solid rgb(136, 124, 124);
+    }
+    .zahasImage{
+        border-radius: 30px;
+        
+    }
+    
+    .zeamanuelsDescription{
+        font-family: 'Kaushan Script', cursive;
+        width: 100%;
+    }
+    .hob1{
+        display: grid;
+        justify-items: center;
+    }
+    .hob2{
+        display: grid;
+        justify-items: center;
+    }
+    .hob3{
+        display: grid;
+        justify-items: center;
+    }
+    .hob4{
+        display: grid;
+        justify-items: center;
+    }
+    .hob5
+    {
+        display: grid;
+        justify-items: center;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: 2fr ;
+        gap: 3em;
+        justify-items: center;
+        text-align: center;
+    
+    }
+    .wrapperjobs{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    
+    .wrapperJobs1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+    
+    .educeduca{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
 }
+@media  only screen and (min-width:320px) and (max-width:900px){
+    .ContactDetails{
+        background-image: linear-gradient(rgb(4rgb(32, 11, 11)9, 39),grey);
+        display: flex;
+        gap: 10px;
+        color: white;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #travel-section{
+      display: flex;
+      justify-content: center;
+    }
+    .placesIhaveVisited{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .wrapperjobs{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .wrapperjobs div{
+        gap: 12px;
+        
+    }
+    .wrapperjobs1 div{
+        gap: 12px;
+       
+    }
+    
+    .wrapperJobs1{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .dreamJob{
+        display: flex;
+        flex-direction: row;
+        gap: 5em;
+    }
+    
+    .box{
+        box-sizing: content-box;
+        border: 2px solid rgb(136, 124, 124);
+    }
+    .twoBoxes{
+        display: flex;
+        justify-content: space-between;
+    }
+    .zahasImage{
+        border-radius: 30px;
+        
+    }
+    .zeamanuelsDescription{
+        font-family: 'Kaushan Script', cursive;
+        
+        width: 100%;
+    }
+    .HobbiesWrapeer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+    
+   
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3em;
+        justify-items: center;
+    
+    }
+    .gallerdiv{
+        width: 200px;
+        height: 200px;
+    }
+    .educeduca{
+        display: grid;
+        justify-content: center;
+    }
+
+}
+@media only screen and (min-width:900px) {
+    .Hobbies_animation{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 90vh ;
+        
+    }
+    .placesIhaveVisited{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+    .carousel-img{
+        width: 100%;
+        height: 80%;
+     }
+    .carosel_item{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform-origin: center;
+        transform-style: preserve-3d;
+        transform: rotateY(calc(var(--i) * 50deg))
+        TranslateZ(400px);
+        box-shadow: 2px white;
+     }
+     #img_a{
+        color: white;
+        animation: rotate 20s linear infinite reverse;
+     }
+    .HobbiesWrapeer{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transform: perspective(1100px) rotateY(0deg);
+    animation: rotate 20s linear infinite;
+    box-shadow: 200px white ;
+    }
+    @keyframes rotate{
+    100%
+    {
+        transform: perspective(1100px) rotateY(360deg);
+    }
+    }
+        .ContactDetails{
+            background-image: linear-gradient(rgb(4rgb(32, 11, 11)9, 39),grey);
+            display: flex;
+            gap: 5px;
+            flex-direction: row;
+            color: white;
+            justify-content: space-around;
+    }
+    .twoBoxes{
+        display: flex;
+        width: 68%;
+        justify-content: space-around;
+    }
+    .box{
+        box-sizing: content-box;
+        border: 2px solid rgb(136, 124, 124);
+    }
+    .zahasImage{
+        border-radius: 30px;
+        width: 15em;
+    }
+    .zeamanuelsDescription{
+        font-family: 'Kaushan Script', cursive;
+        width: 100%;
+    }
+    .Orderedlist{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3em;
+        justify-items: center;
+    
+    }
+    .galleryDiv{
+        width: 400px;
+        height: 400px;
+    }
+    .travelimage{
+        width: 100%;
+        height: 100%;
+    }
+    .wrapperjobs{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .wrapperjobs div{
+        gap: 12px;
+        
+    }
+    .wrapperjobs1 div{
+        gap: 12px;
+       
+    }
+    
+    .wrapperJobs1{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+   
+    .dreamJob{
+        display: flex;
+        flex-direction: row;
+        gap: 10em;
+        
+    }
+    .educeduca{
+        display: grid;
+        justify-content: center;
+    }
+    .volunteerContent{
+        text-align: center;
+    }
+    
+}
+
+
+
+.contact-header{
+    text-align: center;
+    color: white;
+}
+
 .contactForm{
-    background-color: rgb(73, 72, 72);
+    background-image: linear-gradient((#1d162c, 0.24), grey);
 }
 
 .contactFormABC{
@@ -114,7 +468,7 @@ footer{
 .footer-Bottom{
     display: grid;
     justify-content: center;
-    background-color: rgb(32, 33, 36);
+    background-image: linear-gradient(rgb(10rgb(44, 34, 34), 96),white);
 }
 /* .icons{
     background-color: rgb(44, 42, 42);
@@ -123,53 +477,26 @@ footer{
 .foot{
     display: grid;
     row-gap: 1em;
-    background-color: rgb(73, 72, 72);
+    background-image: linear-gradient(rgb(41, rgb(127, 145, 127)7), rgb(186, 204, 186));
 
 }
 .descriptionMe{
     font-family: 'Kaushan Script', cursive; 
 }
-.placesIhaveVisited{
-    display: grid;
-    
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-}
-.gallerdiv{
-    width: 100px;
-    height: 100px;
-}
-.gallery{
-    display: grid;
-    justify-items: center;
 
-}
-.HobbiesWrapeer{
-    display: grid;
-    justify-items: center;
-}
+
+
+
 p{
     font-family: 'Kaushan Script', cursive;
 }
 .icons{
     background-color: rgb(44, 42, 42);
 }
-.dreamJob{
-    display: grid;
-    
-}
-.zahasImage{
-    border-radius: 30px;
-}
-.zeamanuelsDescription{
-    font-family: 'Kaushan Script', cursive;
-    
-    width: 100%;
-}
-.educeduca{
-    display: grid;
-  
-}
+
+
+
+
 .backgroundimageducation{
     display: grid;
     border: 3px solid whitesmoke;
@@ -182,40 +509,11 @@ p{
  
 
 }
-.wrapperjobs{
-    display: grid;
-    text-align: center;
-}
-.hob1{
-    display: grid;
-    justify-items: center;
-}
-.hob2{
-    display: grid;
-    justify-items: center;
-}
-.hob3{
-    display: grid;
-    justify-items: center;
-}
-.hob4{
-    display: grid;
-    justify-items: center;
-}
-.hob5
-{
-    display: grid;
-    justify-items: center;
-}
 hr{
     width: 100%;
     color: lightblue;
 }
-.wrapperJobs1{
-    display: grid;
-    text-align: center;
-   
-}
+
 .volunteerImg{
     width: 50%;
     height: 50%;
@@ -225,5 +523,6 @@ hr{
     flex-direction:column;
     text-align: center;
 }
+
 
 

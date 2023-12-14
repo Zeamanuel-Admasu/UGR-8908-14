@@ -31,3 +31,24 @@ box-shadow: 200px white ;
     transform: perspective(1100px) rotateY(360deg);
 }
 }
+.hob1{
+    display: grid;
+    justify-items: center;
+}
+.hob2{
+    display: grid;
+    justify-items: center;
+}
+.hob3{
+    display: grid;
+    justify-items: center;
+}
+.hob4{
+    display: grid;
+    justify-items: center;
+}
+.hob5
+{
+    display: grid;
+    justify-items: center;
+}

@@ -317,6 +317,7 @@ body{
     .carousel-img{
         width: 100%;
         height: 80%;
+        border-radius: 15px;
      }
     .carosel_item{
         position: absolute;
@@ -523,6 +524,89 @@ hr{
     flex-direction:column;
     text-align: center;
 }
+  
+  
+  
+  .w {
+  background-image: url(/src/images/crash.png);
+  }
+  
+  .e {
+  background-image: url(/src/images/tom3.png);
+  }
+  
+  .l {
+  background-image: url(/src/images/snare.png);
+  }
+  
+  .c {
+  background-image: url(/src/images/tom1.png);
+  }
+  
+  .o {
+  background-image: url(/src/images/tom2.png);
+  }
+  
+  .m {
+  background-image: url(/src/images/kick.png);
+  }
+  
+  .ee {
+    background-image: url(/src/images/tom4.png);
+  }
+  .voice{
+    background-image: url(/src/images/imageDescription.jpg);
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+  .set {
+    display: flex;
+    margin: auto;
+  }
+  .AudioDescription{
+    display: flex;
+    margin: auto;
+  }
 
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+  
 
 
